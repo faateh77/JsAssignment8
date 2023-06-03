@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin:3% auto;
+    max-width: 500px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+.timingdiv {
+    width: 30%;
+    padding: 40px 0%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid #333;
+}
+button{
+    margin: 0px 10px;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+}
+button#startbtn {
+    background: rgb(16, 235, 16);
+    color: #fff;
+    height: 30px;
+}
+button#stopbtn {
+    background: red;
+    color: white;
+}
+button#resetbtn {
+    background: #ffba00;
+}
